@@ -1,24 +1,16 @@
-# README
+# FIRST RAILS APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is made for my beginner-level students at the Rails Girls Beograd workshops. In this simple app users can publish a post with small text up to 140 characters.
 
-Things you may want to cover:
 
-* Ruby version
+### Versions:
+* Ruby:
+  2.5.1
 
-* System dependencies
+* Rails:
+  5.2.0
 
-* Configuration
+* Database:
+  SQLite3
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
