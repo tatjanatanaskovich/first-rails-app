@@ -11,17 +11,15 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+  <div class="form-group">
+    <%= form.text_field :name, class: 'form-control', placeholder: 'Enter Your Name'  %>
   </div>
 
-  <div class="field">
-    <%= form.label :email %>
-    <%= form.text_field :email %>
+  <div class="form-group">
+    <%= form.text_field :email, class: 'form-control', placeholder: 'Enter Your Email' %>
   </div>
 
-  <div class="actions">
-    <%= form.submit %>
+  <div class="form-group">
+    <%= form.submit "Submit", class: 'btn btn-primary' %>
   </div>
 <% end %>
