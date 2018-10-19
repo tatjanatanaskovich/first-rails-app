@@ -14,7 +14,7 @@ In this simple app users can publish a post with small text up to 140 characters
   2.5.1
 
 * Rails:
-  5.2.0
+  5.2.1
 
 * Database:
   SQLite3
