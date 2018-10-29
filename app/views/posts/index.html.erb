@@ -17,9 +17,9 @@
         <tr>
           <td><%= post.content %></td>
           <td><%= post.user.name %></td>
-          <td><%= link_to 'Show Post', post %></td>
-          <td><%= link_to 'Edit Post', edit_post_path(post) %></td>
-          <td><%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <td><%= link_to 'Show Post', post, class: 'btn btn-outline-info' %></td>
+          <td><%= link_to 'Edit Post', edit_post_path(post), class: 'btn btn-outline-warning' %></td>
+          <td><%= link_to 'Delete Post', post, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-outline-danger' %></td>
         </tr>
       <% end %>
     </tbody>
